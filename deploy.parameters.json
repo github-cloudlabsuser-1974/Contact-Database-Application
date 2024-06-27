@@ -1,0 +1,33 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "webAppName": {
+            "value": "YourWebAppName"
+        },
+        "appServicePlanName": {
+            "value": "YourAppServicePlanName"
+        },
+        "location": {
+            "value": "YourAzureRegion"
+        },
+        "databaseConnectionString": {
+            "value": "YourDatabaseConnectionString"
+        },
+        "sku": {
+            "value": "F1"
+        },
+        "skuTier": {
+            "value": "Free"
+        },
+        "skuSize": {
+            "value": "YourSkuSize"
+        },
+        "skuFamily": {
+            "value": "YourSkuFamily"
+        },
+        "skuCapacity": {
+            "value": 1
+        }
+    }
+}
